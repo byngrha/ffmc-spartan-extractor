@@ -55,13 +55,13 @@ try:
     # Add Category based on FFMC value
     def get_category(ffmc):
         if ffmc < 73:
-            return 'Sangat Mudah'
+            return 'Aman'
         elif ffmc < 78:
-            return 'Mudah'
+            return 'Tidak Mudah'
         elif ffmc < 82:
-            return 'Cukup Sulit'
+            return 'Mudah'
         else:
-            return 'Sulit'
+            return 'Sangat Mudah'
 
     max_ffmc_by_desa['Kategori'] = max_ffmc_by_desa['Max FFMC'].apply(get_category)
 
