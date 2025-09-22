@@ -27,5 +27,6 @@ Buka terminal Anda dan jalankan skrip dengan sintaks berikut:
 ```bash
 python3 ./process_ffmc.py {nama_file_input} {nama_provinsi}
 # Contoh
-python3 ./process_ffmc.py {ffmc_gsmap20250705.csv} {KALIMANTAN BARAT}
+python3 ./process_ffmc.py ffmc_gsmap20250705.csv "KALIMANTAN BARAT"
+
 
